@@ -2,7 +2,7 @@
 
             $('#PageGameOneLeft').click(function(){
                 $.ajax({
-                    url: "./PageGameOneLeft.html",  
+                    url: "./PageGameOneLeft.html",
                     cache: false,
                     success: function(html){
                         $("#content").html(html);
@@ -10,9 +10,9 @@
                 });
             });
 
-            $('#btn2').click(function(){
+            $('#list_game').click(function(){
                 $.ajax({
-                    url: "page2.html",
+                    url: "./page_game_list.html",
                     cache: false,
                     success: function(html){
                         $("#content").html(html);
